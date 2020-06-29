@@ -1,0 +1,3 @@
+"C:\Users\James Xia\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Project_Three_Related_Files.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\Project_Three_Related_Files.dir/objects.a @CMakeFiles\Project_Three_Related_Files.dir\objects1.rsp
+D:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Project_Three_Related_Files.dir/objects.a -Wl,--no-whole-archive  -o Project_Three_Related_Files.exe -Wl,--out-implib,libProject_Three_Related_Files.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Project_Three_Related_Files.dir\linklibs.rsp
