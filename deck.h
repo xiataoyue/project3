@@ -10,7 +10,7 @@ const int DeckSize = 52;
 
 class Deck {
     // A standard deck of 52 playing cards---no jokers
-    Card      deck[DeckSize]{};   // The deck of cards
+    Card      deck[DeckSize];   // The deck of cards
     int       next;             // The next card to deal
 
  public:
