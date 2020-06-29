@@ -39,6 +39,7 @@ int main(int argc, char *argv[]){
         int cut = get_cut();
         deck.shuffle(cut);
         cout << "cut at " << cut << endl;
+        player->shuffled();
     }
 
     for(; thishand < hand; thishand++){
@@ -47,7 +48,21 @@ int main(int argc, char *argv[]){
             return 0;
         }
 
-        cout << "Hand " << thishand  + 1 << " bankroll" << bankroll << endl;
+        try{
+            if(deck.cardsLeft() == 0) throw DeckEmpty{};
+        }
+        catch(DeckEmpty a){
+            cout << "No cards left" << endl;
+            cout << "Shuffling the deck" << endl;
+            for(int i = 0; i <7; i++){
+                int cut = get_cut();
+                deck.shuffle(cut);
+                cout << "cut at " << cut << endl;
+            }
+            player->shuffled();
+        }
+
+        cout << "Hand " << thishand  + 1 << " bankroll " << bankroll << endl;
         if(deck.cardsLeft() < 20){
             cout << "Shuffling the deck" << endl;
             for(int i = 0; i <7; i++){
@@ -111,7 +126,7 @@ int main(int argc, char *argv[]){
         cout << "Dealer's hole card is " << SpotNames[card[hole].spot] << " of " << SuitNames[card[hole].suit] << endl;
         player->expose(card[hole]);
 
-        if(dealer.handValue().count < 17){
+        while(dealer.handValue().count < 17){
             card[temp] = deck.deal();
             cout << "Dealer dealt " << SpotNames[card[temp].spot] << " of " << SuitNames[card[temp].suit] << endl;
             dealer.addCard(card[temp]);

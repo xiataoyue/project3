@@ -29,6 +29,8 @@ void Hand::addCard(Card c) {
     }
     else{
         if(this->curValue.count + 10 > 21 && this->curValue.soft){
+            this->curValue.count -= 10;
+            this->curValue.count += 10;
             this->curValue.soft = false;
         }
         else this->curValue.count += 10;
