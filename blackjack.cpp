@@ -104,6 +104,7 @@ int main(int argc, char *argv[]){
             if(wager % 2) bankroll += (3*wager - 1)/2;
             else bankroll += 3*wager / 2;
             cout << "Player dealt natural 21" << endl;
+            temp = 0;
             continue;
         }
 
@@ -120,6 +121,7 @@ int main(int argc, char *argv[]){
         if(player1.handValue().count > 21){
             cout << "Player busts" << endl;
             bankroll -= wager;
+            temp = 0;
             continue;
         }
 
@@ -138,6 +140,7 @@ int main(int argc, char *argv[]){
         if(dealer.handValue().count > 21){
             cout << "Dealer busts" << endl;
             bankroll += wager;
+            temp = 0;
             continue;
         }
 
@@ -152,6 +155,7 @@ int main(int argc, char *argv[]){
         else{
             cout << "Push" << endl;
         }
+        temp = 0;
     }
 
     cout << "Player has " << bankroll << " after " << thishand << " hands" << endl;
