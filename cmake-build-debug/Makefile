@@ -47,10 +47,10 @@ RM = "C:\Users\James Xia\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.784
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files"
+CMAKE_SOURCE_DIR = "C:\Users\James Xia\Desktop\Ve280\Project3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug\CMakeFiles" "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug\CMakeFiles" "C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -161,6 +161,33 @@ blackjack.s: blackjack.cpp.s
 blackjack.cpp.s:
 	$(MAKE) -f CMakeFiles\Blackjack.dir\build.make CMakeFiles/Blackjack.dir/blackjack.cpp.s
 .PHONY : blackjack.cpp.s
+
+card.obj: card.cpp.obj
+
+.PHONY : card.obj
+
+# target to build an object file
+card.cpp.obj:
+	$(MAKE) -f CMakeFiles\Blackjack.dir\build.make CMakeFiles/Blackjack.dir/card.cpp.obj
+.PHONY : card.cpp.obj
+
+card.i: card.cpp.i
+
+.PHONY : card.i
+
+# target to preprocess a source file
+card.cpp.i:
+	$(MAKE) -f CMakeFiles\Blackjack.dir\build.make CMakeFiles/Blackjack.dir/card.cpp.i
+.PHONY : card.cpp.i
+
+card.s: card.cpp.s
+
+.PHONY : card.s
+
+# target to generate assembly for a file
+card.cpp.s:
+	$(MAKE) -f CMakeFiles\Blackjack.dir\build.make CMakeFiles/Blackjack.dir/card.cpp.s
+.PHONY : card.cpp.s
 
 deck.obj: deck.cpp.obj
 
@@ -270,6 +297,33 @@ player.cpp.s:
 	$(MAKE) -f CMakeFiles\Blackjack.dir\build.make CMakeFiles/Blackjack.dir/player.cpp.s
 .PHONY : player.cpp.s
 
+rand.obj: rand.cpp.obj
+
+.PHONY : rand.obj
+
+# target to build an object file
+rand.cpp.obj:
+	$(MAKE) -f CMakeFiles\Blackjack.dir\build.make CMakeFiles/Blackjack.dir/rand.cpp.obj
+.PHONY : rand.cpp.obj
+
+rand.i: rand.cpp.i
+
+.PHONY : rand.i
+
+# target to preprocess a source file
+rand.cpp.i:
+	$(MAKE) -f CMakeFiles\Blackjack.dir\build.make CMakeFiles/Blackjack.dir/rand.cpp.i
+.PHONY : rand.cpp.i
+
+rand.s: rand.cpp.s
+
+.PHONY : rand.s
+
+# target to generate assembly for a file
+rand.cpp.s:
+	$(MAKE) -f CMakeFiles\Blackjack.dir\build.make CMakeFiles/Blackjack.dir/rand.cpp.s
+.PHONY : rand.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -283,6 +337,9 @@ help:
 	@echo ... blackjack.obj
 	@echo ... blackjack.i
 	@echo ... blackjack.s
+	@echo ... card.obj
+	@echo ... card.i
+	@echo ... card.s
 	@echo ... deck.obj
 	@echo ... deck.i
 	@echo ... deck.s
@@ -295,6 +352,9 @@ help:
 	@echo ... player.obj
 	@echo ... player.i
 	@echo ... player.s
+	@echo ... rand.obj
+	@echo ... rand.i
+	@echo ... rand.s
 .PHONY : help
 
 

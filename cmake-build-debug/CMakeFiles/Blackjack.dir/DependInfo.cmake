@@ -4,10 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/James Xia/Desktop/Ve280/Project3/Project-Three-Related-Files/blackjack.cpp" "C:/Users/James Xia/Desktop/Ve280/Project3/Project-Three-Related-Files/cmake-build-debug/CMakeFiles/Blackjack.dir/blackjack.cpp.obj"
-  "C:/Users/James Xia/Desktop/Ve280/Project3/Project-Three-Related-Files/deck.cpp" "C:/Users/James Xia/Desktop/Ve280/Project3/Project-Three-Related-Files/cmake-build-debug/CMakeFiles/Blackjack.dir/deck.cpp.obj"
-  "C:/Users/James Xia/Desktop/Ve280/Project3/Project-Three-Related-Files/hand.cpp" "C:/Users/James Xia/Desktop/Ve280/Project3/Project-Three-Related-Files/cmake-build-debug/CMakeFiles/Blackjack.dir/hand.cpp.obj"
-  "C:/Users/James Xia/Desktop/Ve280/Project3/Project-Three-Related-Files/player.cpp" "C:/Users/James Xia/Desktop/Ve280/Project3/Project-Three-Related-Files/cmake-build-debug/CMakeFiles/Blackjack.dir/player.cpp.obj"
+  "C:/Users/James Xia/Desktop/Ve280/Project3/blackjack.cpp" "C:/Users/James Xia/Desktop/Ve280/Project3/cmake-build-debug/CMakeFiles/Blackjack.dir/blackjack.cpp.obj"
+  "C:/Users/James Xia/Desktop/Ve280/Project3/card.cpp" "C:/Users/James Xia/Desktop/Ve280/Project3/cmake-build-debug/CMakeFiles/Blackjack.dir/card.cpp.obj"
+  "C:/Users/James Xia/Desktop/Ve280/Project3/deck.cpp" "C:/Users/James Xia/Desktop/Ve280/Project3/cmake-build-debug/CMakeFiles/Blackjack.dir/deck.cpp.obj"
+  "C:/Users/James Xia/Desktop/Ve280/Project3/hand.cpp" "C:/Users/James Xia/Desktop/Ve280/Project3/cmake-build-debug/CMakeFiles/Blackjack.dir/hand.cpp.obj"
+  "C:/Users/James Xia/Desktop/Ve280/Project3/player.cpp" "C:/Users/James Xia/Desktop/Ve280/Project3/cmake-build-debug/CMakeFiles/Blackjack.dir/player.cpp.obj"
+  "C:/Users/James Xia/Desktop/Ve280/Project3/rand.cpp" "C:/Users/James Xia/Desktop/Ve280/Project3/cmake-build-debug/CMakeFiles/Blackjack.dir/rand.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

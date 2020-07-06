@@ -42,10 +42,10 @@ RM = "C:\Users\James Xia\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.784
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files"
+CMAKE_SOURCE_DIR = "C:\Users\James Xia\Desktop\Ve280\Project3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Blackjack.dir/depend.make
@@ -58,62 +58,90 @@ include CMakeFiles/Blackjack.dir/flags.make
 
 CMakeFiles/Blackjack.dir/blackjack.cpp.obj: CMakeFiles/Blackjack.dir/flags.make
 CMakeFiles/Blackjack.dir/blackjack.cpp.obj: ../blackjack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Blackjack.dir/blackjack.cpp.obj"
-	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Blackjack.dir\blackjack.cpp.obj -c "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\blackjack.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Blackjack.dir/blackjack.cpp.obj"
+	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Blackjack.dir\blackjack.cpp.obj -c "C:\Users\James Xia\Desktop\Ve280\Project3\blackjack.cpp"
 
 CMakeFiles/Blackjack.dir/blackjack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Blackjack.dir/blackjack.cpp.i"
-	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\blackjack.cpp" > CMakeFiles\Blackjack.dir\blackjack.cpp.i
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\James Xia\Desktop\Ve280\Project3\blackjack.cpp" > CMakeFiles\Blackjack.dir\blackjack.cpp.i
 
 CMakeFiles/Blackjack.dir/blackjack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Blackjack.dir/blackjack.cpp.s"
-	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\blackjack.cpp" -o CMakeFiles\Blackjack.dir\blackjack.cpp.s
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\James Xia\Desktop\Ve280\Project3\blackjack.cpp" -o CMakeFiles\Blackjack.dir\blackjack.cpp.s
 
 CMakeFiles/Blackjack.dir/deck.cpp.obj: CMakeFiles/Blackjack.dir/flags.make
 CMakeFiles/Blackjack.dir/deck.cpp.obj: ../deck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Blackjack.dir/deck.cpp.obj"
-	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Blackjack.dir\deck.cpp.obj -c "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\deck.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Blackjack.dir/deck.cpp.obj"
+	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Blackjack.dir\deck.cpp.obj -c "C:\Users\James Xia\Desktop\Ve280\Project3\deck.cpp"
 
 CMakeFiles/Blackjack.dir/deck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Blackjack.dir/deck.cpp.i"
-	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\deck.cpp" > CMakeFiles\Blackjack.dir\deck.cpp.i
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\James Xia\Desktop\Ve280\Project3\deck.cpp" > CMakeFiles\Blackjack.dir\deck.cpp.i
 
 CMakeFiles/Blackjack.dir/deck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Blackjack.dir/deck.cpp.s"
-	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\deck.cpp" -o CMakeFiles\Blackjack.dir\deck.cpp.s
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\James Xia\Desktop\Ve280\Project3\deck.cpp" -o CMakeFiles\Blackjack.dir\deck.cpp.s
 
 CMakeFiles/Blackjack.dir/hand.cpp.obj: CMakeFiles/Blackjack.dir/flags.make
 CMakeFiles/Blackjack.dir/hand.cpp.obj: ../hand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Blackjack.dir/hand.cpp.obj"
-	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Blackjack.dir\hand.cpp.obj -c "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\hand.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Blackjack.dir/hand.cpp.obj"
+	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Blackjack.dir\hand.cpp.obj -c "C:\Users\James Xia\Desktop\Ve280\Project3\hand.cpp"
 
 CMakeFiles/Blackjack.dir/hand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Blackjack.dir/hand.cpp.i"
-	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\hand.cpp" > CMakeFiles\Blackjack.dir\hand.cpp.i
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\James Xia\Desktop\Ve280\Project3\hand.cpp" > CMakeFiles\Blackjack.dir\hand.cpp.i
 
 CMakeFiles/Blackjack.dir/hand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Blackjack.dir/hand.cpp.s"
-	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\hand.cpp" -o CMakeFiles\Blackjack.dir\hand.cpp.s
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\James Xia\Desktop\Ve280\Project3\hand.cpp" -o CMakeFiles\Blackjack.dir\hand.cpp.s
 
 CMakeFiles/Blackjack.dir/player.cpp.obj: CMakeFiles/Blackjack.dir/flags.make
 CMakeFiles/Blackjack.dir/player.cpp.obj: ../player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Blackjack.dir/player.cpp.obj"
-	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Blackjack.dir\player.cpp.obj -c "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\player.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Blackjack.dir/player.cpp.obj"
+	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Blackjack.dir\player.cpp.obj -c "C:\Users\James Xia\Desktop\Ve280\Project3\player.cpp"
 
 CMakeFiles/Blackjack.dir/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Blackjack.dir/player.cpp.i"
-	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\player.cpp" > CMakeFiles\Blackjack.dir\player.cpp.i
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\James Xia\Desktop\Ve280\Project3\player.cpp" > CMakeFiles\Blackjack.dir\player.cpp.i
 
 CMakeFiles/Blackjack.dir/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Blackjack.dir/player.cpp.s"
-	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\player.cpp" -o CMakeFiles\Blackjack.dir\player.cpp.s
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\James Xia\Desktop\Ve280\Project3\player.cpp" -o CMakeFiles\Blackjack.dir\player.cpp.s
+
+CMakeFiles/Blackjack.dir/rand.cpp.obj: CMakeFiles/Blackjack.dir/flags.make
+CMakeFiles/Blackjack.dir/rand.cpp.obj: ../rand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Blackjack.dir/rand.cpp.obj"
+	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Blackjack.dir\rand.cpp.obj -c "C:\Users\James Xia\Desktop\Ve280\Project3\rand.cpp"
+
+CMakeFiles/Blackjack.dir/rand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Blackjack.dir/rand.cpp.i"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\James Xia\Desktop\Ve280\Project3\rand.cpp" > CMakeFiles\Blackjack.dir\rand.cpp.i
+
+CMakeFiles/Blackjack.dir/rand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Blackjack.dir/rand.cpp.s"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\James Xia\Desktop\Ve280\Project3\rand.cpp" -o CMakeFiles\Blackjack.dir\rand.cpp.s
+
+CMakeFiles/Blackjack.dir/card.cpp.obj: CMakeFiles/Blackjack.dir/flags.make
+CMakeFiles/Blackjack.dir/card.cpp.obj: ../card.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Blackjack.dir/card.cpp.obj"
+	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Blackjack.dir\card.cpp.obj -c "C:\Users\James Xia\Desktop\Ve280\Project3\card.cpp"
+
+CMakeFiles/Blackjack.dir/card.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Blackjack.dir/card.cpp.i"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\James Xia\Desktop\Ve280\Project3\card.cpp" > CMakeFiles\Blackjack.dir\card.cpp.i
+
+CMakeFiles/Blackjack.dir/card.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Blackjack.dir/card.cpp.s"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\James Xia\Desktop\Ve280\Project3\card.cpp" -o CMakeFiles\Blackjack.dir\card.cpp.s
 
 # Object files for target Blackjack
 Blackjack_OBJECTS = \
 "CMakeFiles/Blackjack.dir/blackjack.cpp.obj" \
 "CMakeFiles/Blackjack.dir/deck.cpp.obj" \
 "CMakeFiles/Blackjack.dir/hand.cpp.obj" \
-"CMakeFiles/Blackjack.dir/player.cpp.obj"
+"CMakeFiles/Blackjack.dir/player.cpp.obj" \
+"CMakeFiles/Blackjack.dir/rand.cpp.obj" \
+"CMakeFiles/Blackjack.dir/card.cpp.obj"
 
 # External object files for target Blackjack
 Blackjack_EXTERNAL_OBJECTS =
@@ -122,11 +150,13 @@ Blackjack.exe: CMakeFiles/Blackjack.dir/blackjack.cpp.obj
 Blackjack.exe: CMakeFiles/Blackjack.dir/deck.cpp.obj
 Blackjack.exe: CMakeFiles/Blackjack.dir/hand.cpp.obj
 Blackjack.exe: CMakeFiles/Blackjack.dir/player.cpp.obj
+Blackjack.exe: CMakeFiles/Blackjack.dir/rand.cpp.obj
+Blackjack.exe: CMakeFiles/Blackjack.dir/card.cpp.obj
 Blackjack.exe: CMakeFiles/Blackjack.dir/build.make
 Blackjack.exe: CMakeFiles/Blackjack.dir/linklibs.rsp
 Blackjack.exe: CMakeFiles/Blackjack.dir/objects1.rsp
 Blackjack.exe: CMakeFiles/Blackjack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Blackjack.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Blackjack.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Blackjack.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,6 +169,6 @@ CMakeFiles/Blackjack.dir/clean:
 .PHONY : CMakeFiles/Blackjack.dir/clean
 
 CMakeFiles/Blackjack.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files" "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files" "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug" "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug" "C:\Users\James Xia\Desktop\Ve280\Project3\Project-Three-Related-Files\cmake-build-debug\CMakeFiles\Blackjack.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\James Xia\Desktop\Ve280\Project3" "C:\Users\James Xia\Desktop\Ve280\Project3" "C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug" "C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug" "C:\Users\James Xia\Desktop\Ve280\Project3\cmake-build-debug\CMakeFiles\Blackjack.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Blackjack.dir/depend
 

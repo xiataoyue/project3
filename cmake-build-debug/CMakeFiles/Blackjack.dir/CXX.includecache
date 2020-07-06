@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/James Xia/Desktop/Ve280/Project3/card.cpp
+card.h
+C:/Users/James Xia/Desktop/Ve280/Project3/card.h
+
+C:/Users/James Xia/Desktop/Ve280/Project3/card.h
+
+C:/Users/James Xia/Desktop/Ve280/Project3/rand.cpp
+cstdio
+-
+cassert
+-
+rand.h
+C:/Users/James Xia/Desktop/Ve280/Project3/rand.h
+
+C:/Users/James Xia/Desktop/Ve280/Project3/rand.h
+
