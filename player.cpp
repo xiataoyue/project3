@@ -18,7 +18,7 @@ class SimplePlayer: public Player{
          }
          else{
              if(player.handValue().count <= 17) return true;
-             else if(player.handValue().count == 18 && (dealer.spot == TWO || dealer.spot == 7 || dealer.spot == 8))
+             else if(player.handValue().count == 18 && (dealer.spot == TWO || dealer.spot == SEVEN || dealer.spot == EIGHT))
                  return false;
              else return player.handValue().count < 19;
          }
